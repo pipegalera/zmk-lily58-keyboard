@@ -41,10 +41,10 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4                    &trans           &kp DOLLAR  &kp PERCENT        &kp SLASH  &kp BACKSLASH  &trans
+&bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4                    &kp UNDERSCORE   &kp DOLLAR  &kp PERCENT        &kp SLASH  &kp BACKSLASH  &kp AMPERSAND
 &trans      &trans            &trans             &trans             &trans        &trans                          &kp AT           &kp LBKT    &kp DOUBLE_QUOTES  &kp RBKT   &kp EQUAL      &kp GRAVE
 &trans      &trans            &trans             &trans             &trans        &trans                          &kp HASH         &kp LPAR    &kp SQT            &kp RPAR   &kp PLUS       &kp TILDE
-&trans      &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &trans        &trans        &trans    &trans  &kp EXCLAMATION  &kp LBRC    &kp ASTERISK       &kp RBRC   &kp MINUS      &kp PIPE
+&kp LCMD    &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &trans        &trans        &trans    &trans  &kp EXCLAMATION  &kp LBRC    &kp ASTERISK       &kp RBRC   &kp MINUS      &kp PIPE
                                                  &trans             &trans        &trans        &trans    &trans  &trans           &trans      &trans
             >;
 
