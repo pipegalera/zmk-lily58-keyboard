@@ -42,11 +42,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans             &trans        &trans        &trans        &trans        &trans                              &kp UNDERSCORE   &kp DOLLAR  &kp PERCENT        &kp SLASH  &kp BACKSLASH  &kp AMPERSAND
-&ext_power EP_ON   &bt BT_CLR    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp C_PLAY_PAUSE                    &kp AT           &kp LBKT    &kp DOUBLE_QUOTES  &kp RBKT   &kp EQUAL      &kp GRAVE
-&ext_power EP_OFF  &bt BT_SEL 0  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp C_NEXT                          &kp HASH         &kp LPAR    &kp SQT            &kp RPAR   &kp PLUS       &kp TILDE
-&ext_power EP_TOG  &bt BT_SEL 1  &kp N7        &kt N8        &kp N9        &kt C_PREV        &trans    &trans  &kp EXCLAMATION  &kp LBRC    &kp ASTERISK       &kp RBRC   &kp MINUS      &kp PIPE
-                                               &trans        &trans        &trans            &trans    &trans  &trans           &trans      &trans
+&trans             &trans        &trans  &trans  &trans        &trans                              &kp UNDERSCORE   &kp DOLLAR  &kp PERCENT        &kp SLASH  &kp BACKSLASH  &kp AMPERSAND
+&ext_power EP_ON   &bt BT_CLR    &kp F1  &kp F2  &kp NUMBER_3  &kp C_PLAY_PAUSE                    &kp AT           &kp LBKT    &kp DOUBLE_QUOTES  &kp RBKT   &kp EQUAL      &kp GRAVE
+&ext_power EP_OFF  &bt BT_SEL 0  &kp F4  &kp F5  &kp F6        &kp C_NEXT                          &kp HASH         &kp LPAR    &kp SQT            &kp RPAR   &kp PLUS       &kp TILDE
+&ext_power EP_TOG  &bt BT_SEL 1  &kp F7  &kt F8  &kp F9        &kt C_PREV        &trans    &trans  &kp EXCLAMATION  &kp LBRC    &kp ASTERISK       &kp RBRC   &kp MINUS      &kp PIPE
+                                         &trans  &trans        &trans            &trans    &trans  &trans           &trans      &trans
             >;
         };
 
