@@ -16,14 +16,14 @@
         wp_down: wp_down {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(J)>;
+            bindings = <&kp LC(LG(J))>;
             label = "WP_DOWN";
         };
 
         wp_up: wp_up {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(K)>;
+            bindings = <&kp LC(LG(K))>;
             label = "WP_UP";
         };
     };
