@@ -46,7 +46,7 @@
 &kp TAB           &kp Q   &kp W   &kp E         &kp R         &kp T                                &kp Y          &kp U          &kp I      &kp O    &kp P     &kp EQUAL
 &kp LEFT_CONTROL  &kp A   &kp S   &kp D         &lt 1 F       &kp G                                &kp H          &kp J          &kp K      &kp L    &kp SEMI  &kp MINUS
 &kp LEFT_SHIFT    &kp Z   &kp X   &kp C         &kp V         &kp B          &wp_down    &wp_up    &kp N          &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                                  &kp CAPSLOCK  &kp LEFT_ALT  &kp BACKSPACE  &kp SPACE   &lt 2 RET &kp RIGHT_GUI  &kp RIGHT_ALT  &kp GLOBE
+                                  &kp CAPSLOCK  &kp LALT      &kp BSPC       &kp SPACE   &lt 2 RET &kp RGUI       &kp RALT       &kp GLOBE
             >;
         };
 
