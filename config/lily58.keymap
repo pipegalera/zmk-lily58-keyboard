@@ -38,11 +38,8 @@
     keymap {
         compatible = "zmk,keymap";
 
-// ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-label= "BASE"                              ;
-// ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-
         default_layer {
+            display-name = "BASE";
             bindings = <
 &kp ESC           &kp N1  &kp N2  &kp N3        &kp N4        &kp N5                               &kp N6         &kp N7         &kp N8     &kp N9   &kp N0    &kp DELETE
 &kp TAB           &kp Q   &kp W   &kp E         &kp R         &kp T                                &kp Y          &kp U          &kp I      &kp O    &kp P     &kp EQUAL
@@ -52,12 +49,8 @@ label= "BASE"                              ;
             >;
         };
 
-// ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-label= "SYM"                               ;
-// ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-
         symbols_layer {
-
+            display-name = "SYM";
             bindings = <
 &trans  &trans  &kp F1  &kp F2  &kp F4  &kp F5                    &kp F6           &kp F7    &kp F8             &kp F9    &kp F10        &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &kp AT           &kp LBKT  &kp DOUBLE_QUOTES  &kp RBKT  &kp AMPS       &kp DOLLAR
@@ -67,12 +60,8 @@ label= "SYM"                               ;
             >;
         };
 
-// ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-label= "NUM"                               ;
-// ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-
         numbers_layer {
-
+            display-name = "NUM";
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                            &kp F7        &kp F8    &kp F9        &kp F10          &kp F11  &bt BT_CLR
 &trans  &trans  &kp N1  &kp N2  &kp N3  &trans                            &trans        &trans    &kp UP_ARROW  &trans           &trans   &trans
