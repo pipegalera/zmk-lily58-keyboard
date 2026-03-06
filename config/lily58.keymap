@@ -8,20 +8,17 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(LG(J))>;
-            label = "WP_DOWN";
         };
 
         wp_up: wp_up {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(LG(K))>;
-            label = "WP_UP";
         };
     };
     behaviors {
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LSHFT>, <&kp CAPS>;
@@ -34,6 +31,7 @@
         softoff {
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
+            timeout-ms = <50>;
         };
     };
 
